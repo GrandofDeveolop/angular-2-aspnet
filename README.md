@@ -79,25 +79,6 @@ This utilizes all the latest standards, no gulp, no bower, no typings, no manual
   
   - Integration with NodeJS to provide pre-rendering, as well as any other Node module asset you want to use.
 
-- **Azure**
-  - Microsoft Application Insights setup (for MVC & Web API routing)
-  - Client-side Angular2 Application Insights integration
-    - If you're using Azure simply install `npm i -S @markpieszak/ng-application-insights` as a dependencies.
-    - Note: Make sure only the Browser makes these calls ([usage info here](https://github.com/MarkPieszak/angular-application-insights/blob/master/README.md#usage))
-    - More information here: - https://github.com/MarkPieszak/angular-application-insights
-    ```typescript
-      // Add the Module to your imports 
-      ApplicationInsightsModule.forRoot({
-        instrumentationKey: 'Your-Application-Insights-instrumentationKey'
-      })
-    ```
-  
-
-> Looking for the older 2.x branch? Go [here](https://github.com/MarkPieszak/aspnetcore-angular2-universal/tree/old-2.x-universal-branch)
-
-----
-
-----
   
 # Getting Started?
 
@@ -150,10 +131,6 @@ export ASPNETCORE_ENVIRONMENT=Development
 ### Dotnet publish
 Using `dotnet publish`, when it's finished place the generated folder onto your server and use IIS to fire everything up.
 
-### Heroku 
-<a href="https://dashboard.heroku.com/new?template=https://github.com/MarkPieszak/aspnetcore-angular2-universal.git">
-<img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy on Heroku">
-</a>
 
 ### Azure
 
@@ -372,7 +349,6 @@ constructor(element: ElementRef, renderer: Renderer) {
 
 ----
  
-# FAQ - Also check out the [FAQ Issues label](https://github.com/MarkPieszak/aspnetcore-angular2-universal/issues?utf8=%E2%9C%93&q=is%3Aissue%20label%3Afaq)
 
 ### How can I disable SSR (Server-side rendering)?
 
@@ -412,42 +388,3 @@ To support IE9 through IE11 open the `polyfills.ts` file in the `polyfills` fold
 
 ----
 
-# Special Thanks
-
-Many thanks go out to Steve Sanderson ([@SteveSandersonMS](https://github.com/SteveSandersonMS)) from Microsoft and his amazing work on JavaScriptServices and integrating the world of Node with ASP.NET Core.
-
-Also thank you to the many Contributors !
-- [@Isaac2004](https://github.com/Isaac2004)
-- [@AbrarJahin](https://github.com/AbrarJahin)
-- [@LiverpoolOwen](https://github.com/LiverpoolOwen)
-- [@hakonamatata](https://github.com/hakonamatata)
-- [@markwhitfeld](https://github.com/markwhitfeld)
-- [@Ketrex](https://github.com/Ketrex)
-
-----
- 
-# Found a Bug? Want to Contribute?
-
-[Check out our easier issues here](https://github.com/MarkPieszak/aspnetcore-angular2-universal/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3A%22PRs%20welcome!%22%20)
-
-Nothing's ever perfect, but please let me know by creating an issue (make sure there isn't an existing one about it already), and we'll try and work out a fix for it! If you have any good ideas, or want to contribute, feel free to either make an Issue with the Proposal, or just make a PR from your Fork.
-
-----
-
-# License
-
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](/LICENSE) 
-
-Copyright (c) 2016-2017 [Mark Pieszak](https://github.com/MarkPieszak)
-
-----
-
-# Looking for Angular & ASP.NET Consulting / Training / support?
-
-Contact me at <mpieszak84@gmail.com>, and let's talk about your projects needs!
-
-----
-
-## Follow me online:
-
-Twitter: [@MarkPieszak](http://twitter.com/MarkPieszak) | Medium: [@MarkPieszak](https://medium.com/@MarkPieszak)
