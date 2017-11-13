@@ -31,7 +31,7 @@ This utilizes all the latest standards, no gulp, no bower, no typings, no manual
 * [Application Structure](#application-structure)
 * [Gotchas](#gotchas)
 * [FAQ](#faq---also-check-out-the-faq-issues-label)
-* [Special Thanks](#special-thanks)
+* [Specials](#special-thanks)
 * [License](#license)
 * [Consulting & Training](#looking-for-angular--aspnet-consulting--training--support)
 
@@ -47,7 +47,7 @@ This utilizes all the latest standards, no gulp, no bower, no typings, no manual
   - RestAPI (WebAPI) integration
   - SQL Database CRUD demo
   - Swagger WebAPI documentation when running in development mode 
-  - SignalR Chat demo! (Thanks to [@hakonamatata](https://github.com/hakonamatata))
+  - SignalR Chat demo!
 
 - **Angular 4.0.0** :
   - (Minimal) Angular-CLI integration 
